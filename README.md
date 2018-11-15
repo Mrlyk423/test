@@ -235,7 +235,7 @@ The public leaderboard is available on the [RecipeQA website](https://hucvl.gith
 
 *Note that the above is for the Summary setting. There are no official published results for reading over entire books/stories except for the original paper. 
 
-##Open-domain Question Answering
+## Open-domain Question Answering
 
 ### DuReader
 [DuReader](https://ai.baidu.com/broad/subordinate?dataset=dureader) is a large-scale, open-domain Chinese machine reading comprehension (MRC) dataset, designed to address real-world MRC. [Link to paper](https://arxiv.org/pdf/1711.05073.pdf) 
