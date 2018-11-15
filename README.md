@@ -265,14 +265,15 @@ The [leaderboard](https://ai.baidu.com/broad/leaderboard?dataset=dureader) is av
 ### SearchQA
 [SearchQA](https://arxiv.org/abs/1704.05179) was constructed to reflect a full pipeline of general question-answering. SearchQA consists of more than 140k question-answer pairs with each pair having 49.6 snippets on average. Each question-answer-context tuple of the SearchQA comes with additional meta-data such as the snippet's URL.
 
-| Model                        | Unigram Acc     | N-gram F1   |Paper / Source | Code |
-| -------------                | :-----:| :-----:|---            | ---  |
-|DecaProp (Tay et al., 2018)	   |62.2    |70.8	   |[Densely Connected Attention Propagation for Reading Comprehension](https://arxiv.org/abs/1811.04210)       |      |
-|Denoising QA (Lin et al. 2018)| - |64.5    |[Denoising Distantly Supervised Open-Domain Question Answering](http://aclweb.org/anthology/P18-1161)|[official](https://github.com/thunlp/OpenQA)|
-|Bi-Attention + DCU-LSTM (Tay et al., 2018)	   |49.4    |59.5	   |[Multi-Granular Sequence Encoding via Dilated Compositional Units for Reading Comprehension](http://aclweb.org/anthology/D18-1238)       |      |
-|AMANDA (Kundu et al., 2018)	     |46.8	  |56.6	   |[A Question-Focused Multi-Factor Attention Network for Question Answering](https://arxiv.org/abs/1801.08290)               | [official](https://github.com/nusnlp/amanda)|
-|Focused Hierarchical RNN	(Ke et al., 2018)     |46.8	  |53.4	   |[Focused Hierarchical RNNs for Conditional Sequence Processing](http://proceedings.mlr.press/v80/ke18a/ke18a.pdf)||
-|ASR (Kadlec et al, 2016) |41.3	  |22.8    |[Text Understanding with the Attention Sum Reader Network](https://arxiv.org/abs/1603.01547)|
+| Model                        | Unigram Acc     | N-gram F1   | EM     |  F1   |Paper / Source | Code |
+| -------------                | :-----:| :-----:| :-----:| :-----:|---            | ---  |
+|DecaProp (Tay et al., 2018)	   |62.2    |70.8	   |56.8 |63.6    |[Densely Connected Attention Propagation for Reading Comprehension](https://arxiv.org/abs/1811.04210)       |      |
+|Denoising QA (Lin et al. 2018)| - |-    | 58.8| 64.5|[Denoising Distantly Supervised Open-Domain Question Answering](http://aclweb.org/anthology/P18-1161)|[official](https://github.com/thunlp/OpenQA)|
+|R^3 (Wang et al., 2018)	     |-	  |-	 | 49.0| 55.3  |[R^3: Reinforced Ranker-Reader for Open-Domain Question Answering](https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16712/16165)|[official](https://github.com/shuohangwang/mprc)|
+|Bi-Attention + DCU-LSTM (Tay et al., 2018)	   |49.4    |59.5	   |- |-    |[Multi-Granular Sequence Encoding via Dilated Compositional Units for Reading Comprehension](http://aclweb.org/anthology/D18-1238)       |      |
+|AMANDA (Kundu et al., 2018)	     |46.8	  |56.6	   |- |-    |[A Question-Focused Multi-Factor Attention Network for Question Answering](https://arxiv.org/abs/1801.08290)               | [official](https://github.com/nusnlp/amanda)|
+|Focused Hierarchical RNN	(Ke et al., 2018)     |46.8	  |53.4	   |- |-    |[Focused Hierarchical RNNs for Conditional Sequence Processing](http://proceedings.mlr.press/v80/ke18a/ke18a.pdf)||
+|ASR (Kadlec et al, 2016) |41.3	  |22.8    |- |-    |[Text Understanding with the Attention Sum Reader Network](https://arxiv.org/abs/1603.01547)|
 
 
 [Go back to the README](../README.md)
