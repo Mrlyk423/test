@@ -21,7 +21,7 @@ Question answering is the task of answering a question.
   - [Story Cloze Test](#story-cloze-test)
   - [Recipe QA](#recipeqa)
   - [NarrativeQA](#narrativeqa)
-- [Open-domain Question Answering](#open-domain-qa)
+- [Open domain Question Answering](#open-domain-question-answering)
   - [DuReader](#dureader)
   - [Quasar](#quasar)
   - [SearchQA](#searchqa)
