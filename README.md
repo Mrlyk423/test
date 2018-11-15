@@ -268,6 +268,7 @@ The [leaderboard](https://ai.baidu.com/broad/leaderboard?dataset=dureader) is av
 | Model                        | Unigram Acc     | N-gram F1   |Paper / Source | Code |
 | -------------                | :-----:| :-----:|---            | ---  |
 |DecaProp (Tay et al., 2018)	   |62.2    |70.8	   |[Densely Connected Attention Propagation for Reading Comprehension](https://arxiv.org/abs/1811.04210)       |      |
+|Denoising QA (Lin et al. 2018)| - |64.5    |[Denoising Distantly Supervised Open-Domain Question Answering](http://aclweb.org/anthology/P18-1161)|[official](https://github.com/thunlp/OpenQA)|
 |Bi-Attention + DCU-LSTM (Tay et al., 2018)	   |49.4    |59.5	   |[Multi-Granular Sequence Encoding via Dilated Compositional Units for Reading Comprehension](http://aclweb.org/anthology/D18-1238)       |      |
 |AMANDA (Kundu et al., 2018)	     |46.8	  |56.6	   |[A Question-Focused Multi-Factor Attention Network for Question Answering](https://arxiv.org/abs/1801.08290)               | [official](https://github.com/nusnlp/amanda)|
 |Focused Hierarchical RNN	(Ke et al., 2018)     |46.8	  |53.4	   |[Focused Hierarchical RNNs for Conditional Sequence Processing](http://proceedings.mlr.press/v80/ke18a/ke18a.pdf)||
